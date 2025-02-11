@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    font-family: Inter;
+    --radius: 0.5rem;
+    --content-head-height: 92px;
+  }
+  .dark {
+    --content-head-height: 92px;
+  }
+}
